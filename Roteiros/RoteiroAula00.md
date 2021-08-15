@@ -66,13 +66,13 @@ Submenu onde os componentes visuais ficam dispostos. Neste exemplo temos uma men
 
 É onde é configurada toda a lógica de redirecionamento do bot, cada condição de saída direciona a um bloco no fluxo, se nenhuma delas forem satisfeitas o usuário é redirecionado para a saída padrão neste exemplo está configurada para o bloco de exceções.
 
-## Configurações gerais **Ações**
+## Configurações gerais Ações
 
 As ações podem ser de dois tipos, de entrada de ou de saída.
 
-**Ações de entrada:** elas ****são executadas antes do primeiro bloco de conteúdo aparecer na tela.
+**Ações de entrada:** elas são executadas antes do primeiro bloco de conteúdo aparecer na tela.
 
-**Ações de saída:**  ****elas ****são executadas após o último bloco de conteúdo aparecer na tela.
+**Ações de saída:**  elas são executadas após o último bloco de conteúdo aparecer na tela.
 
 nestas ações é possível adicionar requisições HTTP, registro de eventos, definição de contatos, redirecionamentos, variáveis, scripts, gerenciamento de lista de distribuição executar script, definir variáveis, consultar assistente de conteúdo e também processar comando.
 
