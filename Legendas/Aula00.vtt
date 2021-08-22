@@ -1,0 +1,378 @@
+WEBVTT
+
+1
+00:00:00.041 --> 00:00:07.000
+Hoje oficialmente começa o nosso curso chatbot developer utilizando a plataforma Take Blip.
+
+2
+00:00:07.400 --> 00:00:10.000
+Mas afinal o que é o blip chat?
+
+3
+00:00:10.020 --> 00:00:15.400
+Se trata uma plataforma da Take Blip de criação de chatbot utilizando Low Code
+
+4
+00:00:15.400 --> 00:00:23.083
+que é uma tecnologia que permite a criação de soluções sem a necessidade de muito conhecimento de programação
+
+5
+00:00:23.200 --> 00:00:32.000
+Os contatos inteligentes são criados com a utilização de blocos e setas. representadas por um fluxograma
+
+6
+00:00:32.200 --> 00:00:39.000
+A plataforma tem diversos recursos que facilitam o desenvolvimento como por exemplo
+
+7
+00:00:39.000 --> 00:00:45.000
+a utilização de requisições HTTP que permitem o consumo de APIs REST
+
+8
+00:00:45.200 --> 00:00:51.000
+atendimento humano com a tecnologia do Blip Desk que facilita o processo de transbordo
+
+9
+00:00:51.200 --> 00:01:05.000
+além disso tem como recurso utilização de scripts para manipulação e tratamento de dados, utilização de variáveis locais e de configuração
+
+10
+00:01:05.100 --> 00:01:13.000
+O builder ele permite a criação de chatbots com a  estrutura de router e bots especialistas, que é a estrutura mais recomendada
+
+11
+00:01:13.100 --> 00:01:21.100
+além de  integrar com WhatsApp, Facebook, Menssager, Instagram, Telegram entre outros canais
+
+12
+00:01:24.000 --> 00:01:25.100
+O que será abordado neste curso?
+
+13
+00:01:25.200 --> 00:01:32.800
+O objetivo principal é facilitar o uso dessa poderosa plataforma de criação de contatos inteligentes
+
+14
+00:01:32.900 --> 00:01:39.000
+e dar uma ótima base de acordo com as boas práticas de mercado para se tornar um chatbot developer
+
+15
+00:01:39.000 --> 00:01:44.000
+passando pelos conceitos principais, de criação do primeiro contato inteligente
+
+16
+00:01:44.000 --> 00:01:53.200
+realização de requisições HTTP, utilização de recursos, transbordo, uso de scripts, e novidades do Blip Chat
+
+17
+00:01:53.900 --> 00:01:56.000
+Visão geral do curso
+
+18
+00:01:56.000 --> 00:02:00.000
+No Módulo 1 nós vamos fazer a criação do primeiro chatbot
+
+19
+00:02:00.100 --> 00:02:03.100
+O objetivo é dar os primeiros passos na plataforma
+
+20
+00:02:03.400 --> 00:02:08.000
+aprender conceitos iniciais, criar o primeiro contato inteligente
+
+21
+00:02:08.000 --> 00:02:11.000
+falar do debugger, testes e variáveis
+
+22
+00:02:11.100 --> 00:02:15.000
+No Módulo 2 nos vamos abordar os Principais Recursos
+
+23
+00:02:15.000 --> 00:02:22.000
+O objetivo é trabalhar com requisições HTTP e tratamento de dados com JavaScript
+
+24
+00:02:22.000 --> 00:02:30.000
+além de construir o primeiro projeto de bot utilizando o canal do Telegram tendo como base a API do GitHub
+
+25
+00:02:30.000 --> 00:02:35.000
+No Módulo 3 vamos estudar e aplicar as Boas práticas
+
+26
+00:02:35.000 --> 00:02:39.000
+A ideia é apresentar as melhores práticas do mercado e de escalabilidade
+
+27
+00:02:39.000 --> 00:02:43.000
+para facilitar na manutenção e agilizar a entrega
+
+28
+00:02:43.000 --> 00:02:47.800
+No Módulo 4 vamos explorar e configurar o Atendimento Humano
+
+29
+00:02:47.800 --> 00:02:54.000
+Trabalhar com transbordo, principais configurações e recursos
+
+30
+00:02:54.100 --> 00:02:58.000
+No Módulo 5 vamos trabalhar com Integrações
+
+31
+00:02:58.000 --> 00:03:01.900
+O nosso objetivo é entrar mais a fundo no Blip Chat
+
+32
+00:03:01.900 --> 00:03:08.000
+na integração com o Salesforce, Dropbox, Hubspot e diversos outros serviços
+
+33
+00:03:08.000 --> 00:03:13.000
+No Módulo 6 vamos trabalhar com Inteligência artificial
+
+34
+00:03:13.000 --> 00:03:18.500
+estudando o Dialog Flow e a aplicação da inteligência artificial no chatbot
+
+35
+00:03:18.500 --> 00:03:23.000
+E por último no Módulo 7 vamos trabalhar com as Novidades
+
+36
+00:03:23.000 --> 00:03:28.000
+Trazendo recursos interessantes que acabaram de ser lançados
+
+37
+00:03:28.000 --> 00:03:31.000
+Estrutura básica
+
+38
+00:03:31.000 --> 00:03:39.000
+Bloco de início: ele tem como função receber a primeira interação do usuário e passar para o próximo bloco
+
+39
+00:03:39.000 --> 00:03:45.000
+nele geralmente ficam variáveis gerais do bot, scripts e requisições genéricas
+
+40
+00:03:45.000 --> 00:03:54.000
+Bloco de exceções: ele tem como função receber todo comportamento que não foi desejado no fluxo normal do bot
+
+41
+00:03:54.000 --> 00:03:59.000
+como por exemplo erro na validação da entrada de usuário
+
+42
+00:03:59.000 --> 00:04:06.000
+caso seja um erro configurado nas condições de saída ele exibe uma mensagem de erro
+
+43
+00:04:06.000 --> 00:04:12.000
+e continua o fluxo voltando pro início
+
+44
+00:04:12.000 --> 00:04:17.000
+caso não for mapeado ele vai direto para o inicio
+
+45
+00:04:17.000 --> 00:04:23.000
+Adicionar blocos: para adicionar blocos você pode clicar nesse botão aqui
+
+46
+00:04:23.000 --> 00:04:30.000
+que por padrão pode adicionar blocos comuns como este ou blocos de atendimento humano
+
+47
+00:04:30.000 --> 00:04:40.000
+Publicar fluxo: este botão ele realiza a publicação de uma nova versão do fluxo em todos os canais conectados
+
+48
+00:04:40.000 --> 00:04:53.000
+Engrenagem de configurações: ao clicar nela aparece as configurações gerais do bot como variáveis, versões e ações globais
+
+49
+00:04:53.100 --> 00:05:01.000
+Biblioteca de variáveis: contém todas as variáveis nativas do builder e uma breve explicação de seu conteúdo
+
+50
+00:05:01.100 --> 00:05:10.000
+Pesquisar: esse botão ele permite pesquisar por blocos presentes no bot e seus recursos internos
+
+51
+00:05:10.000 --> 00:05:20.000
+Atendimento humano: este botão permite fazer todas as configurações relacionadas ao transbordo
+
+52
+00:05:22.000 --> 00:05:26.000
+Configurações gerais conteúdo
+
+53
+00:05:26.000 --> 00:05:30.000
+Submenu onde os componentes visuais ficam dispostos
+
+54
+00:05:30.000 --> 00:05:38.000
+Neste exemplo temos uma mensagem de digitando, um texto e uma entrada de usuário
+
+55
+00:05:40.000 --> 00:05:49.000
+E é permitido a utilização de no máximo 25 mensagens por bloco estas podem ser
+
+56
+00:05:49.000 --> 00:05:52.000
+essas mensagens que estão aqui embaixo são do tipo
+
+57
+00:05:52.000 --> 00:06:08.000
+por exemplo quick reply, imagem, carrossel, menu, áudio, vídeo, digitando, pedir localização, web link, conteúdo HTTP e conteúdo dinâmico
+
+58
+00:06:09.000 --> 00:06:13.000
+Configurações gerais condições de saída
+
+59
+00:06:13.000 --> 00:06:18.000
+É onde é configurada toda a lógica de redirecionamento do bot
+
+60
+00:06:18.000 --> 00:06:22.000
+cada condição de saída direciona a um bloco no fluxo
+
+61
+00:06:22.000 --> 00:06:28.000
+se nenhuma delas forem satisfeitas o usuário é redirecionado para a saída padrão
+
+62
+00:06:28.000 --> 00:06:32.000
+que neste exemplo está configurada para o bloco de exceções.
+
+63
+00:06:35.000 --> 00:06:37.000
+Configurações gerais Ações
+
+64
+00:06:37.000 --> 00:06:45.000
+As ações podem ser de dois tipos, de entrada ou de saída.
+
+65
+00:06:45.000 --> 00:06:52.000
+As ações de entrada: elas são executadas antes do primeiro bloco de conteúdo aparecer na tela
+
+66
+00:06:52.000 --> 00:07:00.000
+Já as ações de saída:  elas tem que ser executadas né após o último bloco de conteúdo aparecer na tela
+
+67
+00:07:00.000 --> 00:07:12.000
+nestas ações é possível adicionar requisições HTTP, da para adicionar registro de eventos, definição de contatos, redirecionamentos, variáveis, scripts eh
+
+68
+00:07:12.000 --> 00:07:25.000
+gerenciamento de lista de distribuição executar script, definir variáveis, consultar assistente de conteúdo e também processar comando
+
+69
+00:07:26.000 --> 00:07:28.000
+Inteligência Artificial
+
+70
+00:07:28.000 --> 00:07:34.000
+Através dos provedores de IA podemos configurar a Inteligência Artificial do nosso bot
+
+71
+00:07:34.000 --> 00:07:41.000
+podendo assim validar se as saídas estão de acordo com o esperado e ir aprimorando o modelo de testes
+
+72
+00:07:41.500 --> 00:07:43.000
+Canais
+
+73
+00:07:43.000 --> 00:07:50.500
+De acordo com a necessidade dos clientes podemos configurar os canais do chatbot para melhor atende-lo
+
+74
+00:07:50.500 --> 00:07:55.000
+a vantagem do Blip Chat é que ao construir o bot uma vez
+
+75
+00:07:55.000 --> 00:08:00.000
+ele pode ser utilizado em todos os canais que tiverem conectados
+
+76
+00:08:02.000 --> 00:08:03.000
+Análise
+
+77
+00:08:03.000 --> 00:08:10.000
+Essa é a parte responsável por fornecer as informações do contato inteligente em forma de relatório
+
+78
+00:08:10.000 --> 00:08:16.900
+assim permite a tomada de ações em prol de otimizar o bot para os usuários
+
+79
+00:08:16.900 --> 00:08:21.000
+além de nutrir com informações importantes de desempenho
+
+80
+00:08:22.000 --> 00:08:24.000
+Equipe
+
+81
+00:08:24.000 --> 00:08:29.000
+Área responsável por fazer todo o gerenciamento de permissões do bot
+
+82
+00:08:29.000 --> 00:08:37.000
+é o lugar para adicionar e remover membros da equipe concedendo os níveis de acesso desejados
+
+83
+00:08:39.000 --> 00:08:41.000
+Testes
+
+84
+00:08:41.000 --> 00:08:48.000
+Essa é a região de testes, nela é possível validar o do bot realizar debug
+
+85
+00:08:48.000 --> 00:08:52.000
+acompanhar o caminho percorrido pelo contato inteligente
+
+86
+00:08:52.000 --> 00:09:00.000
+registrar os eventos né de acordo com o que está acontecendo com o que o usuário está interagindo
+
+87
+00:09:00.000 --> 00:09:05.000
+validar né e ver como que estão as requisições HTTP
+
+88
+00:09:05.000 --> 00:09:13.000
+ver as saidas das execuções de scripts, além de poder ver também as variáveis e o conteúdo dinâmico
+
+89
+00:09:13.000 --> 00:09:21.000
+para poder melhor debugar e validar o que pode estar acontecendo de errado no chatbot
+
+90
+00:09:21.000 --> 00:09:24.000
+ou simplesmente só testar e validar os comportamentos
+
+91
+00:09:26.000 --> 00:09:27.000
+Obrigado :)
+
+92
+00:09:27.000 --> 00:09:32.000
+Gostaria de agradecer a atenção de todos, muito obrigado por me assistir até aqui
+
+93
+00:09:32.000 --> 00:09:38.000
+e no mais, desejo bons estudos e vou deixar as minhas redes sociais para quem quiser interagir
+
+94
+00:09:38.000 --> 00:09:41.000
+e até uma próxima aula, falou
+
