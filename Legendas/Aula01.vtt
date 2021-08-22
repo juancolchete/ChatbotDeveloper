@@ -1,0 +1,81 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:05.000
+Opa beleza? Juan Colchete aqui!
+
+2
+00:00:05.000 --> 00:00:10.000
+e hoje nós vamos ter o nosso primeiro contato com a plataforma Take Blip
+
+3
+00:00:10.000 --> 00:00:13.000
+então para começar a gente precisa de se cadastrar
+
+4
+00:00:13.000 --> 00:00:19.000
+é, vocês vem aqui, preenche seu nome email, senha, telefone site da empresa e o tamanho da empresa
+
+5
+00:00:19.000 --> 00:00:23.000
+e depois aceita os termos e se cadastra
+
+6
+00:00:23.000 --> 00:00:29.000
+e como eu já tenho conta aqui, eu já vou simplesmente logar com minha conta do google
+
+7
+00:00:31.500 --> 00:00:33.000
+e vou clicar aqui em portal
+
+8
+00:00:33.000 --> 00:00:42.500
+para a gente começar a criar os nossos bots, eu vou começar clicando aqui o
+
+9
+00:00:42.500 --> 00:00:49.000
+criar chatbot, e de cara a gente tem duas opções, criar do zero ou atendimento manual
+
+10
+00:00:49.000 --> 00:00:54.000
+se a gente for fazer um atendimento manual, o nosso bot vai ser voltado ao Blip Desk
+
+11
+00:00:54.000 --> 00:00:59.000
+mas não é isso que a gente que por agora, por agora a gente vai criar um bot de portfolio
+
+12
+00:00:59.000 --> 00:01:14.800
+então vamos criar ele do zero, um bom padrão aqui né, uma boa prática, é a gente colocar o nome do serviço do bot né
+
+13
+00:01:14.800 --> 00:01:23.500
+por exemplo portfolio, e depois a gente coloca a especialidade dele, por exemplo o nome do meu bot é portfolio
+
+14
+00:01:23.500 --> 00:01:30.000
+qual que é a especialidade? ele é meu bot principal, porque na hora de trabalhar com roteador
+
+15
+00:01:30.000 --> 00:01:40.000
+fica mais fácil de identificar quais que são os serviçõs e também na hora de distinguir quais bots pretencem a qual roteador
+
+16
+00:01:40.000 --> 00:01:50.000
+então vamos escolher a nossa imagem, vou escolher essa imagem aqui vamos ver se vair ficar bacana
+
+17
+00:01:50.000 --> 00:02:01.000
+ficou legal! Vamos finalizar aqui e assim que a gente já finaliza ele já começa a criar o nosso fluxo
+
+18
+00:02:01.000 --> 00:02:09.000
+inicialmente a gente tem esses quatro blocos, esse aqui é o bloco de início aqui fica a primeira entrada de usuário
+
+19
+00:02:09.000 --> 00:02:16.000
+que é usada para acionar o nosso chatbot, aí quando um usuário manda uma mensagem ela caí aqui para o boas vindas e
+
+20
+00:02:16.000 --> 00:02:25.000
+fala assim olá contact.name esse contact.name é o nome do contato né, que fica salvo aí ele fala seja bem vindo
